@@ -46,7 +46,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && (if exist \"../build\" rmdir /s /q \"../build\") && xcopy build ..\\build /E /I /H /K /Y",
+    "build": "react-scripts build && (if exist \"../backend/build\" rmdir /s /q \"../backend/build\") && xcopy build ..\\backend\\build /E /I /H /K /Y",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
